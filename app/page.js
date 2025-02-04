@@ -6,6 +6,7 @@ function page()
       <header>CPRG 306: Web Development 2 - Assignments</header>
       <p><Link href="week-2"> go to week 2 </Link></p>
       <p><Link href="week-3"> go to week 3</Link></p>
+      <p><Link href="week-4"> go to week 4</Link></p>
     </div>
   )
 }
