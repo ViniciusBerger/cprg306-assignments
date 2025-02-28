@@ -1,7 +1,7 @@
-import NewItem from "./new-item"
+import Counter from "./counter"
 export default function page()
 {
     return (
-        <NewItem/>
+        <Counter/>
     )
 }

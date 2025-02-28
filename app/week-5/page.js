@@ -1,4 +1,4 @@
-import NewItem from "./new-item"
+import NewItem from "./form"
 export default function page()
 {
     return (
