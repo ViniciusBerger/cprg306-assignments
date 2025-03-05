@@ -1,3 +1,4 @@
+"use client";
 import Item from './item';
 export default function ItemList({items, onDeleteItem}) {
 
