@@ -29,8 +29,8 @@ export default function Form({onAddItem}) {
     }
 
     return (
-        <section className="flex justify-end items-center min-h-1/2 bg-blue-100">
-            <form onSubmit={onHandleSubmit} className="bg-white p-10 text-center m-auto mt-20 mb-20 rounded-lg shadow-md w-full bg-gray-100 max-w-md">
+        <section className="flex justify-end items-center min-h-1/2 bg-white">
+            <form onSubmit={onHandleSubmit} className="bg-gray-100 p-10 text-center m-auto mt-20 mb-20 rounded-lg shadow-md w-full bg-gray-100 max-w-md">
                 
                 <div className="mb-6">
                     <label htmlFor="name" className="block text-sm font-medium text-gray-900">Product name</label>
@@ -41,9 +41,9 @@ export default function Form({onAddItem}) {
                 <div className="flex mb-6"> 
                     <label htmlFor="quantity" className="block text-sm font-medium text-gray-900"></label>
                     <div className="flex justify-center pr-5 items-center m-auto mt-1">
-                        <button type="button" onClick={decrement} disabled="" className="px-4 py-2 bg-blue-300 text-white rounded-l text-center hover:bg-blue-500 disabled:bg-gray-400 disabled:cursor-not-allowed">-</button>
+                        <button type="button" onClick={decrement} disabled="" className="px-4 py-2 bg-red-500 text-white rounded-l text-center hover:bg-red-600 disabled:bg-gray-400 disabled:cursor-not-allowed">-</button>
                         <span className="px-4 py-2 bg-gray-100 text-gray-900 text-center">{item.quantity}</span>
-                        <button type="button" onClick={increment} className="px-4 py-2 bg-green-400 text-white text-center rounded-r hover:bg-green-500 disabled:bg-gray-400 disabled:cursor-not-allowed">+</button>
+                        <button type="button" onClick={increment} className="px-4 py-2 bg-blue-500 text-white text-center rounded-r hover:bg-blue-600 disabled:bg-gray-400 disabled:cursor-not-allowed">+</button>
                     </div>
         
                     <label htmlFor="category" className="block text-sm font-medium text-gray-900"></label>
@@ -63,7 +63,7 @@ export default function Form({onAddItem}) {
                 </div>
 
                 <div className="flex justify-center">
-                    <button type="submit" className="w-full bg-green-500 text-white py-2 px-4 rounded-md hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2">
+                    <button type="submit" className="w-full bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
                         Submit
                     </button>
                 </div>
