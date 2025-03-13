@@ -29,7 +29,7 @@ export default function Form({onAddItem}) {
     }
 
     return (
-        <section className="flex justify-end items-center min-h-1/2 bg-white">
+        <div className="flex justify-end items-center min-h-1/2 bg-white">
             <form onSubmit={onHandleSubmit} className="bg-gray-100 p-10 text-center m-auto mt-20 mb-20 rounded-lg shadow-md w-full bg-gray-100 max-w-md">
                 
                 <div className="mb-6">
@@ -68,6 +68,6 @@ export default function Form({onAddItem}) {
                     </button>
                 </div>
             </form>
-        </section>
+        </div>
     )
 }

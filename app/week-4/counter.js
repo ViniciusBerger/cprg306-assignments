@@ -1,5 +1,4 @@
 'use client'
-
 import { useState } from "react"
 
 export default function NewItem()
@@ -15,6 +14,7 @@ export default function NewItem()
 
     return (
         <section className="flex justify-center items-center min-h-screen bg-blue-100">
+            
             <div className="bg-white p-10 text-center rounded-lg shadow-md w-full max-w-md">
             <p className="block text-sm font-medium text-gray-900">Counter:</p>
             <p className="block text-sm font-medium text-gray-900">{count}</p>
