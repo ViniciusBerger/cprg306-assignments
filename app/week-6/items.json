@@ -7,7 +7,7 @@
   },
   {
     "id": "2KJH3k2j3H1k2J3K1H",
-    "name": "bread 🍞",
+    "name": "bread🍞",
     "quantity": 2,
     "category": "bakery"
   },
@@ -19,13 +19,13 @@
   },
   {
     "id": "4k2J3K1H2GJKH12gk",
-    "name": "bananas 🍌",
+    "name": "bananas🍌",
     "quantity": 6,
     "category": "produce"
   },
   {
     "id": "5H1h1H2KJH3k2j3H",
-    "name": "broccoli 🥦",
+    "name": "broccoli🥦",
     "quantity": 3,
     "category": "produce"
   },
@@ -49,7 +49,7 @@
   },
   {
     "id": "9H12gkHG31h1H2KJ",
-    "name": "toilet paper, 12 pack 🧻",
+    "name": "toilet paper, 12 pack🧻",
     "quantity": 1,
     "category": "household"
   },
@@ -61,13 +61,13 @@
   },
   {
     "id": "11k2J3K1H2GJKH12",
-    "name": "dish soap 🍽️",
+    "name": "dish soap🍽️",
     "quantity": 1,
     "category": "household"
   },
   {
     "id": "12GJKH12gkHG31h1",
-    "name": "hand soap 🧼",
+    "name": "hand soap🧼",
     "quantity": 4,
     "category": "household"
   }
