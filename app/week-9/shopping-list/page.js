@@ -1,13 +1,13 @@
 "use client"
 
-import ItemsData from "../week-6/items";
-import ItemList from "../week-6/item-list";
-import Form from "../week-5/form";
-import Sort from "../week-7/sort";
+import ItemsData from "../../week-6/items";
+import ItemList from "../../week-6/item-list";
+import Form from "../../week-5/form";
+import Sort from "../../week-7/sort";
 import { useState, } from "react";
-import { MealIdeas } from "../week-8/mealIdeas";
+import { MealIdeas } from "../../week-8/mealIdeas";
 
-export default function ShoppingList(){
+export default function Page(){
     const [items, setItems] = useState(ItemsData);    
     const [selectedItem, setSelectedItem] = useState({id: '', name: '', quantity: 0, category: ''});
     
